@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: grpc-client1
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8849
+
+server:
+  port: 8080
+
